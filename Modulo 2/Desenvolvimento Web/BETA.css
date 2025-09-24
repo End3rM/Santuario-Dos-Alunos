@@ -1,0 +1,26 @@
+h1{
+    font-size: 50px;
+    color: aqua;
+    /* font-family: fantasy; */
+  
+
+
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+.ladoA{
+    background-color:antiquewhite ;
+     height: 100%;
+    width: 30%;
+    position: absolute;
+}
+.master2{
+    background-color: rgb(188, 183, 238);
+    height: 1000px;
+    text-align: center;
+    
+}

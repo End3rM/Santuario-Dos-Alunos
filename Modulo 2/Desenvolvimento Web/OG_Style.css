@@ -1,0 +1,17 @@
+/* # tag mãe */
+nav{ 
+background-color: rgb(0, 0, 0);
+color: aliceblue;
+display: flex;
+justify-content: space-between;
+/* imagem */
+}
+img{
+width: 50px;
+height: 50px;
+}
+ul{ 
+justify-self: left;
+
+
+}
