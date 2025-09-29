@@ -4,19 +4,10 @@ background-color: rgb(0, 0, 0);
 color: aliceblue;
 display: flex;
 justify-content: space-between;
-
-button {
-  background-color: #000000;
-  color: white;
-  border: 10px;
-  border-color: white;
-  padding: 12px 24px;
-  font-size: 16px;
-  transition: transform 0.2s; 
+width: 100%;
 }
-
 /* imagem */
-}
+
 img{
 width: 50px;
 height: 50px;
@@ -36,14 +27,56 @@ gap: 40px;
 a{
     color:white;
     text-decoration: none;
-} 
 
+  } 
 .Background {
 height: 100%;
 width: 100%;
 }
+.Telinha {
+  padding: 0.75em 1.5em;
+  background-color: #000000; /* azul violeta */
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: sans-serif;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
 
+.Telinha:hover {
+  background-color: #000000; /* tom mais escuro */
+  transform: translateY(-2px);
+}
 
+.Telinha:active {
+  background-color: #ffffff;
+  transform: translateY(0);
+  color: #000000;
+}
+
+.CaixadoMeio{
+width: 1500px;
+height: 800px;
+background-color: rgba(0, 0, 0, 0.8);
+;
+position: absolute;
+top: 150px;
+border: 5px solid rgba(0, 0, 0, 0.5); /* Define a borda */
+  /* filter: blur(3px); */
+;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-image: url('../Imagens/flower.jpg'); 
+   background-repeat: no-repeat;
+   background-size: 100%
+  
+}
 
 
 
