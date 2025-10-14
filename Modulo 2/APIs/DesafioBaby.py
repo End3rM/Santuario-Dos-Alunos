@@ -51,8 +51,8 @@ dados=requests.get('https://68dea937898434f413559869.mockapi.io/Get').json()
         
 continue2 =  True
             
-brinde = "(Compensação) Palitos de mussarela."
-refillvita= " (Compensação) Refill da Vitamina de Banana e Maçã. "
+brinde = " | (Compensação) Palitos de mussarela."
+refillvita= " | (Compensação) Refill da Vitamina de Banana e Maçã. "
 
 
 
@@ -72,7 +72,7 @@ for item in dados:
     sobremesa=item.get('Sobremesa')
     bebida=item.get('Bebida')
     id =  item.get('id')
-    if mesa == '5':
+    if mesa == '4':
      print("------------[PEDIDOS SOS]------------")
      print(entrada)
      print(prato)
