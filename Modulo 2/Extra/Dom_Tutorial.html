@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <title>Aula de JavaScript</title>
+    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css" />
+    <script defer src="https://pyscript.net/latest/pyscript.js"></script>
+</head>
+<body>
+    <h1 id="titulo">Olá, mundo!</h1>
+    <h2 id="mensagem">Texto original</h2>
+    <button onclick="mudarTexto()">Clique aqui</button>
+ 
+    <script>
+    function mudarTexto() {
+        let elemento = document.getElementById("mensagem");
+        elemento.innerText ="Texto alterado com Java aaa!";
+    }
+    </script>
+ 
+</body>
+</html>

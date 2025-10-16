@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula de JayS</title>
+    <link rel="stylesheet" href="https://pyscript.net/latest/pyscript.css">
+</head>
+<body>
+    <h1>Seja bem vindo</h1>
+    <input id="login" placeholder="digite seu email" type="text">
+    <input id="senha" placeholder="digite sua senha" type="text">
+    <button onclick="validador">Aperte Aqui para validar</button>
+    <h2 id="text"></h2>
+
+    <script>
+function validador() {
+    login=document.getElementById('login').value
+    senha=document.getElementById('senha').value
+    if (login =='seu email') {
+    document.getElementById('text').innerText='seja bem vindo'
+        
+    }
+
+
+}
+    </script>
+</body>
+</html>
