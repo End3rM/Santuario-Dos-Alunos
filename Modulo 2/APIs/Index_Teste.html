@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=p, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    {%for item in pessoa%}
+    <p>{{item.Name}}</p>
+    <p>{{item.Age}}</p>
+    {%if item.Age>18 %}
+    <p>É maior de idade!</p>
+    {%else%}
+    <p>É menor de idade!</p>
+    {%endif%}
+    {%endfor%}
+</body>
+</html>
