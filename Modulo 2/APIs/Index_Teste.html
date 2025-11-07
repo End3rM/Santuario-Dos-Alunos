@@ -6,14 +6,20 @@
     <title>Document</title>
 </head>
 <body>
-    {%for item in pessoa%}
+    {%for item in alunos%}
     <p>{{item.Name}}</p>
     <p>{{item.Age}}</p>
-    {%if item.Age>18 %}
-    <p>É maior de idade!</p>
-    {%else%}
-    <p>É menor de idade!</p>
-    {%endif%}
+    <p>{{item.Telephone}}</p>
+   
     {%endfor%}
+    <form action="adicionar" method="post">
+        Name:<input type="text" name="Name" required>
+        Age:<input type="text" name="Age" required>
+        Telephone:<input type="text" name="Telephone" required>
+        <button type="submit">Cadastrar Aluno</button>
+        
+
+
+    </form>
 </body>
 </html>
